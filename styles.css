@@ -1,0 +1,182 @@
+body {
+    background-color: darkslategray;
+    color: white;
+    font-size: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+table {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+    tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li#menu {
+    color: #000000;
+    font-size: 1.5em;
+    float: left;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    border-right: 2px solid darkslategray;
+}
+
+li#menu.last {
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    border-left: 2px solid darkslategray;
+    background-color: tomato;
+}
+
+li a#menu, .dropbtn {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover#menu, .dropdown:hover .dropbtn {
+    background-color: #cccccc;
+ }
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 217px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+li a:visited#menu {
+    color: #000000;
+}
+
+li a:active#menu {
+    color: #ffffff;
+    background-color: darkred;
+}
+
+ a:link {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+ }
+ a:visited {
+      color: blue;
+      background-color: transparent;
+      text-decoration: underline;
+}
+ a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+}
+
+div#body {
+    background-color: #000000;
+    color: #000000;
+    width: 100%;
+    border-top: 40px solid darkslategray;
+}
+
+header, footer {
+    background-color: tomato;
+    font-family: "Brush Script MT", cursive;
+}
+
+article {
+    float: left;
+    width: 50%;
+}
+
+article#text{
+    background-color: #ffffff;
+    text-align: center;
+    height: 430px;
+}
+
+p#text {
+    top: 50%;
+}
+
+aside.border {
+    margin-left: 50%;
+    overflow: hidden;
+    border: 5px solid #000000;
+}
+
+aside#image{
+    height: 450px;
+}
+
+.title {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    text-decoration: none;
+}
+
+.mainInfo {
+    padding: 15px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.border {
+    border: 5px solid #000000;
+}
+
+.imgBorder {
+    border-width: 3px;
+    border-style: ridge;
+    width: 98%;
+    height: 94%
+}
+
+.centerer {
+    border: 5px solid #000000;
+    display: inline-block;
+    height: 100%;
+    width: 95%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.imgHeader {
+    border-width: 3px;
+    border-style: ridge;
+    display: inline-block;
+    vertical-align: middle;
+}

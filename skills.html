@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+  <head>
+    <title>Stone Mathers - Skills</title>
+    <link rel="stylesheet"  href="styles.css">
+    <script>
+      function showDropdown() {
+      document.getElementById("aboutDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  for (var d = 0; d < dropdowns.length; d++) {
+		        var openDropdown = dropdowns[d];
+		        if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+			}
+		  }
+	     }
+      }
+    </script>
+  </head>
+  <body>
+      <h1 class="title">Stone Mathers</h1>
+    <ul id="menu">
+      <li id="menu"><a href="home.html" id="menu">Home</a></li>
+      <li class="dropdown" id="menu">
+	<a href="javascript:void(0)" id="menu" class="dropbtn" onclick="showDropdown()">About</a>
+	<div class="dropdown-content" id="aboutDropdown">
+	  <a href="hometowns.html" id="menu">My Hometowns</a>
+	  <a href="running.html" id="menu">Running</a>
+	  <a href="percussion.html" id="menu">Percussion</a>
+	</div>
+      <li id="menu"><a href="skills.html" id="menu">Skills</a></li>
+      <li id="menu" class="last"><a href="contact.html" id="menu">Contact</a></li>
+    </ul>
+    <div id="body">
+      <header class="border">
+	<h1>Skillset</h1>
+      </header>
+      <article class="border" id="text">
+	<h3 class="mainInfo"><ins>Technical Skills</ins></h3>
+	<ul style="text-align:left;list-style-type:square;">
+	  <li><b>Object Oriented Programming</b>: Java, Python, C</li>
+	  <li>CSS, HTML, and JavaScript</li>
+	  <li>Command Line</li>
+	  <li>Git Workflow</li>
+	  <li><b>Text Editing</b>: Markdown, XML, Emacs, LaTeX</li>
+	</ul>
+	<h3 class="mainInfo"><ins>Relevant Coursework</ins></h3>
+	<ul style="text-align:left;list-style-type:square;">
+	  <li>Data Structures and Algorithms</li>
+	  <li>Computer Architecture</li>
+	  <li>Discrete Math for Computer Science</li>
+	  <li>Software Design and Implementation</li>
+	</ul>
+      </article>
+      <aside class="border" id="image">
+	<img class="imgBorder" src="images/dukechapel.jpeg" alt="Duke University Chapel">
+      </aside>
+      <footer class="border">
+	<address style="padding:5px">
+	  Written by Stone Mathers<br>
+	  March, 2017 <br
+      </address>
+      </footer>
+    </div>
+  </body>
+</html>
+
+    

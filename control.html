@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+  <head>
+    <title>Stone Mathers</title>
+    <link rel="stylesheet"  href="styles.css">
+    <script language="javascript" type="text/javascript">
+      var jq = document.createElement('jq');
+      jq.src = "http://code.jquery.com/jquery-2.2.1.min.js";
+      jq.type = "text/javascript";
+      document.getElementsByTagName('head')[0].appendChild(jq);
+      function loadPage(pageName) {
+      var data = load("home.html");
+      document.getElementsByTagName("body")[0].innerHTML = data;
+      var page = pageName.toString() + ".html";
+      }
+
+    </script>
+    <noscript>
+      <h3>This site requires JavaScript.</h3>
+    </noscript>
+  </head>
+  <body>
+    <div>
+      <h1 class="title">Stone Mathers</h1>
+      <ul id="menu">
+	<li id="menu"><a id="menu" onclick="loadPage('home')">Home</a></li>
+	<li id="menu"><a href="about.html" id="menu">About</a></li>
+	<li id="menu"><a href="skills.html" id="menu">Skills</a></li>
+	<li id="menu" class="last"><a href="contact.html" id="menu">Contact</a></li>
+      </ul>
+    </div>
+    <div id="content"></div>
+  </body>
+</html>
+
+     
+  
