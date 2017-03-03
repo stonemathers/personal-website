@@ -23,6 +23,13 @@ td, th {
     background-color: #ffffff;
 }
 
+ul#towns {
+    text-align: center;
+    font-size: 32px;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
 ul#menu {
     list-style-type: none;
     margin: 0;
